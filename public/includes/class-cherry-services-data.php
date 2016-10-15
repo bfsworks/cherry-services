@@ -247,6 +247,7 @@ class Cherry_Services_Data {
 
 		// The Query Arguments.
 		$this->query_args['post_type']        = CHERRY_SERVICES_NAME;
+		$this->query_args['s']        	      = $args['s'];
 		$this->query_args['posts_per_page']   = $args['limit'];
 		$this->query_args['orderby']          = $args['orderby'];
 		$this->query_args['order']            = $args['order'];
